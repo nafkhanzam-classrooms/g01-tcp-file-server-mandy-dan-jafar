@@ -43,10 +43,11 @@ Program terdiri dari **satu file client** dan **empat jenis implementasi server*
 
 ## Screenshot Hasil
 
-*(Ganti teks di bawah ini dengan gambar screenshot Anda menggunakan format Markdown `![Deskripsi](path/ke/gambar.jpg)`)*
+1a. ![sync-Koneksi Multi-Client & Chat Broadcast](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/JafKrim/image/no_1/server-sync.png)
+1b. ![select-Koneksi Multi-Client & Chat Broadcast](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/JafKrim/image/no_1/server-select.png)
+1c. ![poll-Koneksi Multi-Client & Chat Broadcast](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/JafKrim/image/no_1/server-poll.png)
+1d. ![thread-Koneksi Multi-Client & Chat Broadcast](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/JafKrim/image/no_1/server-thread.png)
 
-1.  **Screenshot Koneksi Multi-Client & Chat Broadcast:**
+2.  ![Fitur Upload & List](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/JafKrim/image/no_2/upload-list.png)
 
-2.  **Screenshot Fitur Upload & List:**
-
-3.  **Screenshot Fitur Download:**
+3.  ![Fitur Download](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/JafKrim/image/no_3/download.png)

@@ -4,15 +4,49 @@
 ## Anggota Kelompok
 | Nama           | NRP        | Kelas     |
 | ---            | ---        | ----------|
-|                |            |           |
-|                |            |           |
+| [Nama Anda 1]  | [NRP 1]    | [Kelas 1] |
+| [Nama Anda 2]  | [NRP 2]    | [Kelas 2] |
 
 ## Link Youtube (Unlisted)
 Link ditaruh di bawah ini
-```
-
-```
+```text
+[https://youtu.be/](https://youtu.be/)[GANTI_DENGAN_ID_VIDEO_ANDA]
+````
 
 ## Penjelasan Program
 
+Tugas ini adalah implementasi aplikasi **TCP File Server** berbasis terminal yang mendukung arsitektur *multi-client*. Aplikasi ini mengkombinasikan fitur pertukaran pesan (chat/broadcast) dan transfer file dalam satu koneksi TCP yang sama.
+
+Untuk memisahkan antara teks perintah/chat dengan data mentah (raw bytes) dari file, program ini menggunakan protokol sederhana di mana setiap perintah dikirim sebagai string berakhiran *newline* (`\n`), dan transfer data dilakukan tepat setelah *header* perintah diterima.
+
+Program terdiri dari **satu file client** dan **empat jenis implementasi server** yang berbeda:
+
+### 1\. File Client
+
+  * **`client.py`**: Aplikasi sisi klien yang menggunakan *multithreading* sederhana. Satu *thread* utama menangani input dari pengguna (terminal), sementara satu *thread* berjalan di *background* (`daemon`) untuk terus mendengarkan respon pesan atau kiriman file dari server tanpa memblokir antarmuka input.
+
+### 2\. Implementasi Server
+
+  * **`server-sync.py` (Synchronous)**: Server yang berjalan secara sekuensial (*blocking*). Hanya melayani satu klien pada satu waktu. Jika klien lain mencoba terhubung, koneksinya akan tertahan (*pending*) sampai klien pertama terputus.
+  * **`server-thread.py` (Threading)**: Server *multi-client* yang membuat *thread* baru (`threading.Thread`) untuk setiap klien yang terhubung. Sangat responsif namun mengkonsumsi lebih banyak sumber daya jika klien sangat banyak.
+  * **`server-select.py` (Select)**: Server *multi-client* berbasis *I/O multiplexing* menggunakan fungsi `select()`. Menggunakan satu *thread* utama yang memonitor banyak *socket* sekaligus secara *non-blocking*. Kompatibel secara lintas *platform* (Windows, macOS, Linux).
+  * **`server-poll.py` (Poll)**: Server *multi-client* berbasis *I/O multiplexing* menggunakan *syscall* `poll()`. Lebih efisien dari `select` untuk jumlah koneksi yang sangat besar. **Catatan:** Modul `select.poll()` hanya tersedia di sistem operasi berbasis UNIX (Linux, macOS, atau WSL).
+
+### Fitur yang Didukung
+
+  * **Broadcast Chat**: Mengetikkan teks biasa di terminal klien akan mengirim pesan tersebut ke server, yang kemudian disebarkan (di-broadcast) ke seluruh klien lain yang terhubung.
+  * **`/list`**: Menampilkan daftar file yang tersedia di penyimpanan server (`server_files/`).
+  * **`/upload <filename>`**: Mengunggah file dari penyimpanan klien (`client_files/`) ke server.
+  * **`/download <filename>`**: Mengunduh file dari server dan menyimpannya ke penyimpanan klien lokal.
+
+-----
+
 ## Screenshot Hasil
+
+*(Ganti teks di bawah ini dengan gambar screenshot Anda menggunakan format Markdown `![Deskripsi](path/ke/gambar.jpg)`)*
+
+1.  **Screenshot Koneksi Multi-Client & Chat Broadcast:**
+
+2.  **Screenshot Fitur Upload & List:**
+
+3.  **Screenshot Fitur Download:**

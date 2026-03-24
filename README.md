@@ -10,7 +10,7 @@
 ## Link Youtube (Unlisted)
 Link ditaruh di bawah ini
 ```text
-[https://youtu.be/](https://youtu.be/)[GANTI_DENGAN_ID_VIDEO_ANDA]
+https://youtu.be/GKn1iw_lmhU
 ````
 
 ## Penjelasan Program

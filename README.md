@@ -43,9 +43,9 @@ Program terdiri dari **satu file client** dan **empat jenis implementasi server*
 
 ## Screenshot Hasil
 
-1a. ![sync-Koneksi Multi-Client & Chat Broadcast](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/JafKrim/image/no_1/server-sync.png)<br>
-1b. ![select-Koneksi Multi-Client & Chat Broadcast](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/JafKrim/image/no_1/server-select.png)<br>
-1c. ![poll-Koneksi Multi-Client & Chat Broadcast](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/JafKrim/image/no_1/server-poll.png)<br>
-1d. ![thread-Koneksi Multi-Client & Chat Broadcast](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/JafKrim/image/no_1/server-thread.png)<br>
-2.  ![Fitur Upload & List](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/JafKrim/image/no_2/upload-list.png)<br>
-3.  ![Fitur Download](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/JafKrim/image/no_3/download.png)<br>
+1a. ![sync-Koneksi Multi-Client & Chat Broadcast](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/main/image/no_1/server-sync.png)<br>
+1b. ![select-Koneksi Multi-Client & Chat Broadcast](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/main/image/no_1/server-select.png)<br>
+1c. ![poll-Koneksi Multi-Client & Chat Broadcast](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/main/image/no_1/server-poll.png)<br>
+1d. ![thread-Koneksi Multi-Client & Chat Broadcast](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/main/image/no_1/server-thread.png)<br>
+2.  ![Fitur Upload & List](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/main/image/no_2/upload-list.png)<br>
+3.  ![Fitur Download](https://github.com/nafkhanzam-classrooms/g01-tcp-file-server-mandy-dan-jafar/blob/main/image/no_3/download.png)<br>

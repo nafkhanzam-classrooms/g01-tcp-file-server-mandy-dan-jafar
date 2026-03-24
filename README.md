@@ -4,8 +4,8 @@
 ## Anggota Kelompok
 | Nama           | NRP        | Kelas     |
 | ---            | ---        | ----------|
-| [Nama Anda 1]  | [NRP 1]    | [Kelas 1] |
-| [Nama Anda 2]  | [NRP 2]    | [Kelas 2] |
+| Ja'far Balyan Al Karim  | 5025241040   | D |
+| Mandy Alphafyn Imanuel Tjandra  | 5025241173    | D |
 
 ## Link Youtube (Unlisted)
 Link ditaruh di bawah ini
